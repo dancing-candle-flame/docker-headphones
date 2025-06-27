@@ -10,6 +10,7 @@ LABEL build_version="Linuxserver.io version:- ${VERSION} Build-date:- ${BUILD_DA
 LABEL maintainer="dancing-candle-flame"
 # hard set UTC in case the user does not define it
 ENV TZ="Etc/UTC"
+ENV BEETSCONFIG="/app/headphones/lib/beets/config_default.yaml"
 
 # copy patches folder
 COPY patches/ /tmp/patches/
