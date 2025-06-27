@@ -7,7 +7,7 @@ ARG BUILD_DATE
 ARG VERSION
 ARG HEADPHONES_COMMIT
 LABEL build_version="Linuxserver.io version:- ${VERSION} Build-date:- ${BUILD_DATE}"
-LABEL maintainer="aptalca"
+LABEL maintainer="dancing-candle-flame"
 # hard set UTC in case the user does not define it
 ENV TZ="Etc/UTC"
 
